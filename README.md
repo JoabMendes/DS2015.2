@@ -1,4 +1,4 @@
-#Distributed System Assignments - IFRN - 2015.2
+#Distributed Systems Assignments - IFRN - 2015.2
 
 
 This directory hosts the assignments done for the Distributed Systems
