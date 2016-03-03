@@ -1,8 +1,9 @@
 
-SOA Implementation using Chorus.js (SOA solution for Node.js apps)
+SOA Implementation using Chorus.js
+(SOA solution for Node.js apps)
 ================================
 
-This example is to invoke some APIs to calculate the external area
+This example invokes some APIs using orchestration to calculate the external area
 of an elipse inside a retangle. This example followed the `Calculations`
 sample from [http://www.chorusjs.com/examples/](http://www.chorusjs.com/examples/)
 , however in this Implementation there's complete *Server and Client* abstraction
@@ -15,16 +16,16 @@ it fixes some problems related to the recent mongoDB new interface.
 
 ###Softwares
 
-Install (npm)[https://www.npmjs.com/]
-Install (Node.js)[https://nodejs.org/en/]
-Install (mongoDB)[https://www.mongodb.org/]
+- Install [npm](https://www.npmjs.com/)
+- Install [Node.js](https://nodejs.org/en/)
+- Install [mongoDB](https://www.mongodb.org/)
 
 ###Packages
 
 Inside of this diretory (orchestration_t3) install the packages
 
 ```sh
-sudo npm install //Will read the package.json file inside of the diretory
+sudo npm install //Reads the file package.json
 
 ```
 
