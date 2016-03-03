@@ -1,6 +1,6 @@
 #CORBA Implementation using Python (Unix)
 
-This is an example of a CORBA implementation using python. 
+This is an example of a CORBA implementation using python.
 
 #Requirements
 
@@ -8,10 +8,10 @@ To run this example you will need the omniORB and omniORBpy libraries.
 This middleware allows you to implement interfaces for python applications
 using the CORBA technology. To install these libraries follow the commands
 of this [tutorial(in mandarim)](http://blog.csdn.net/kmust20093211/article/details/43528109)
-(This tutorial also explains how to define the omniNames, but in my example I used the IORs 
+(This tutorial also explains how to define the omniNames, but in my example I used the IORs
 directly in the clients).
 
-You also need to have the fortune cookie program installed 
+You also need to have the fortune cookie program installed
 
 `$ sudo apt-get install fortune`
 
@@ -34,9 +34,9 @@ And them run the server
 
 `python server.py`
 
-This will generate and IOR number that will be the object reference for the 
+This will generate and IOR number that will be the object reference for the
 clients, it could be the same as the omniName, but to simplify the example
-copy the string generate by serve and sign it to the variable `ior` in
+copy the string generate by the server and sign it to the variable `ior` in
 the client script.
 
 After this just run the client:

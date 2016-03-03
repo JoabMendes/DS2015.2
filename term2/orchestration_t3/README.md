@@ -5,8 +5,8 @@
 This example invokes some APIs using orchestration to calculate the external area
 of an elipse inside a retangle. This example followed the `Calculations`
 sample from [http://www.chorusjs.com/examples/](http://www.chorusjs.com/examples/)
-, however in this Implementation there's complete *Server and Client* abstraction
-running the orchestration when a client request a servicer from a provider. Also,
+, however in this Implementation there's a complete *Server and Client* abstraction
+running the orchestration when a client request a service from a provider. Also,
 it fixes some problems related to the recent mongoDB new interface.
 
 ![Sequence Diagram](http://i.imgur.com/fAO4F1Y.png)
