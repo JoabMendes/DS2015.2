@@ -1,0 +1,52 @@
+package cords {
+		
+	package compute {
+		
+		import services.computation.* 
+		import types.* 
+		      
+		environment dev {
+			server dev1 {
+				localhost
+				bundle calculator {
+					port 3000
+					service compute 1.0 as calculator
+					process calculateArea
+				}     
+			}
+		} 
+	  	       
+		            	  	            	  	  		 
+		process calculateArea version 1  {
+			     
+			service compute 1.0 as calculator
+			   
+			var input : DoubleOperand  
+			var output : DoubleResult  
+			var open values : DoubleOperand
+			var final area : DoubleResult
+			duration oneHour (1h) 
+		 	                   
+			sequence main {   
+				receive calculateRectangleArea {
+					-> input
+				}
+				  
+				input -> values 
+				  
+				invoke calculateArea {
+					calculator.multiply(values) -> area 
+				}
+				
+				area -> output
+				 				
+				reply calculateRectangleArea {
+					return output 
+				}
+			} 
+			
+		}
+			 		
+	}
+	
+}
