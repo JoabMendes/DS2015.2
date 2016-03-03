@@ -1,0 +1,14 @@
+{
+  "name": "calculateArea",
+"description": "calculateArea process",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "4.1.0",
+    "body-parser": "~1.0.2",
+    "superagent" : "~0.18.0",
+    "mongojs" : "*",
+    "log4js" : "*",
+    "validator" : "*"
+  }
+}
