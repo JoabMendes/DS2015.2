@@ -1,7 +1,6 @@
 
-SOA Implementation using Chorus.js
-(SOA solution for Node.js apps)
-================================
+##SOA Implementation using Chorus.js (SOA solution for Node.js apps)
+
 
 This example invokes some APIs using orchestration to calculate the external area
 of an elipse inside a retangle. This example followed the `Calculations`
